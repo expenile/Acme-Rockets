@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    
+}
+#nav {
+    width: 100%;
+    height: 68px;
+    background: #0F766E;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9;
+    transition: top 0.5s; /* Add smooth transition for the top property */
+}
+#nav h1{
+    font-size: 30px;
+    cursor: pointer;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 22%; /* Adjust the padding value as needed */
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 22%;
+    gap: 23px;
+}
+#nav-part2 a{
+    text-decoration: none;
+    font-size: 20px;
+}
+#container {
+    position: relative;
+    background: black;
+    height: 100% ; /* Subtract the height of the navigation bar */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 22%;
+    border-bottom: 0.5px solid white;
+}
+
+
+
+#container span{
+    color: #A5B4FC;
+}
+#container h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 49px;
+    
+}
+#container p{
+    font-size: 23px;
+    color: #94A3B8;
+    line-height: 31px;
+}
+#container #right img{
+    padding: 30px;
+}
+
+#main2{
+    width: 100%;
+    height: 100%;
+    background: black;
+    border-bottom:  0.5px solid white;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 0.5px solid white;
+
+}
+#main2 h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+#img-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+    
+   
+#img-container .image{
+    width: 265px;
+    height: 280px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+#img-container .image img{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+#img-container .image p{
+   font-size: 31px;
+}
+#img-container .image #dollar{
+    color: #94A3B8;
+    padding-top: 6px;
+ }
+
+
+
+
+
